@@ -1,0 +1,131 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1
+      ],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "Il2Cpp D:/Vampire_Platformer_PS4/Library/Il2cppBuildCache/PS4/Native/Il2CppUserAssemblies.prx",
+      "Action": "C:\\Apps\\Unity\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe --convert-to-cpp --dotnetprofile=\"unityaot\" --compile-cpp --libil2cpp-static --platform=\"PS4\" --architecture=\"x64\" --configuration=\"Release\" --outputpath=\"D:/Vampire_Platformer_PS4/Assets/../Library/Il2cppBuildCache/PS4\\Native\\Il2CppUserAssemblies.prx\" --cachedirectory=\"D:/Vampire_Platformer_PS4/Library/il2cpp_cache\" --compiler-flags=\"-O0 -g \" --linker-flags=\"%22D%3A%2FVampire_Platformer_PS4%2Ftemp%2FApplicationInfo.o%22\" --plugin=\"C:\\Apps\\Unity\\Editor\\Data\\PlaybackEngines\\PS4Player\\Tools\\PS4Il2CppPlugin.dll\" --additional-include-directories=\"C:\\Apps\\SCE\\ORBIS SDKs\\8.000\\target\\include\" --baselib-directory=\"C:/Apps/Unity/Editor/Data/PlaybackEngines/PS4Player\\Tools\\il2cpp\\external\\baselib\\8_00\\lib\\master\" --avoid-dynamic-library-copy --configuration=\"ReleasePlus\"  --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=C:/Apps/Unity/Editor/Data/Tools/MapFileParser/MapFileParser.exe --directory=D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed --generatedcppdir=D:/Vampire_Platformer_PS4/Library/Il2cppBuildCache/PS4/il2cppOutput",
+      "Inputs": [
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/mscorlib.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/System.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.AIModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.AndroidJNIModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.AssetBundleModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.DirectorModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.PS4Module.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.PS4VRModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.TerrainModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsNativeModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.VFXModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll",
+        "D:/Vampire_Platformer_PS4/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll"
+      ],
+      "Outputs": [
+        "D:/Vampire_Platformer_PS4/Library/Il2cppBuildCache/PS4/Native/Il2CppUserAssemblies.prx"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": false,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 1
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "../../../Temp/StagingArea/Data/Managed"
+    },
+    {
+      "File": "artifacts/buildprogram/tundra_buildprogram.dag.json"
+    },
+    {
+      "File": "il2cpp_settings.json"
+    },
+    {
+      "File": "unitylinker_settings.json"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "../../../Temp/StagingArea/Data/Managed"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".txt",
+    ".c",
+    ".cpp",
+    ".h",
+    ".cs",
+    ".hpp"
+  ],
+  "StructuredLogFileName": "artifacts/tundra.log.json",
+  "StateFileName": "artifacts/TundraBuildState.state",
+  "StateFileNameTmp": "artifacts/TundraBuildState.state.tmp",
+  "ScanCacheFileName": "artifacts/tundra.scancache",
+  "ScanCacheFileNameTmp": "artifacts/tundra.scancache.tmp",
+  "DigestCacheFileName": "artifacts/tundra.digestcache",
+  "DigestCacheFileNameTmp": "artifacts/tundra.digestcache.tmp",
+  "DirectoriesCausingImplicitDependencies": [],
+        "NamedNodes": {
+          "all_tundra_nodes": 0
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "artifacts/tundra.dag.json",
+  "BuildTitle": "Bee",
+  "RelativePathToRoot": ".."
+}
